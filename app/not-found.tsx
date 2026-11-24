@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 
-import { LogoMark } from "@/components/brand/logo-mark"
+import { LogoIcon } from "@/components/brand/logo-mark"
 import { DeadEndIllustration } from "@/components/errors/dead-end-illustration"
 import { GoBackButton } from "@/components/errors/go-back-button"
 import { Badge } from "@/components/ui/badge"
@@ -18,9 +18,7 @@ export default function NotFound() {
   return (
     <div className="flex min-h-svh flex-col px-4 py-4">
       <header className="mx-auto flex w-full max-w-5xl items-center gap-2.5">
-        <span className="flex size-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
-          <LogoMark className="size-5" />
-        </span>
+        <LogoIcon className="size-10" />
         <span className="text-[15px] font-bold">Safe Road CI</span>
       </header>
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 import { LoginForm } from "@/components/auth/login-form"
 import { LoginShowcase } from "@/components/auth/login-showcase"
-import { LogoMark } from "@/components/brand/logo-mark"
+import { LogoIcon } from "@/components/brand/logo-mark"
 import { buttonVariants } from "@/components/ui/button"
 import { Icon } from "@/components/ui/icon"
 import { cn } from "@/lib/utils"
@@ -25,9 +25,7 @@ export default function LoginPage() {
           <div className="flex items-center justify-between gap-3 lg:justify-end">
             {/* Marque visible quand le panneau vert est masqué (petits écrans). */}
             <span className="flex items-center gap-2.5 lg:hidden">
-              <span className="flex size-9 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                <LogoMark className="size-4.5" />
-              </span>
+              <LogoIcon className="size-9" />
               <span className="text-[15px] font-bold">Safe Road CI</span>
             </span>
             <a

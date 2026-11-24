@@ -1,4 +1,4 @@
-import { LogoMark } from "@/components/brand/logo-mark"
+import { LogoIcon } from "@/components/brand/logo-mark"
 import { Icon } from "@/components/ui/icon"
 
 const highlights = [
@@ -29,9 +29,7 @@ export function LoginShowcase() {
       />
 
       <div className="relative flex items-center gap-3">
-        <span className="flex size-10 items-center justify-center rounded-full bg-card text-primary tall:size-11">
-          <LogoMark className="size-5 tall:size-5.5" />
-        </span>
+        <LogoIcon variant="inverse" className="size-10 tall:size-11" />
         <span className="flex flex-col">
           <span className="text-base font-bold tall:text-[17px]">
             Safe Road CI

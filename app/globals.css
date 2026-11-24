@@ -89,23 +89,24 @@
   --card-foreground: #1c1f1d;
   --popover: #ffffff;
   --popover-foreground: #1c1f1d;
-  --primary: #2f4a39;
+  /* Vert du logo SafeRoad CI (public/logo) : toutes les nuances de vert en dérivent. */
+  --primary: #0b4630;
   --primary-foreground: #ffffff;
   --secondary: #f6f5f1;
-  --secondary-foreground: #2f4a39;
+  --secondary-foreground: #0b4630;
   --muted: #f6f5f1;
   --muted-foreground: #5f6661;
-  --accent: #e4ede6;
-  --accent-foreground: #2f6b43;
+  --accent: #e0eee7;
+  --accent-foreground: #1e6c4e;
   --destructive: #d92d20;
   --border: #e2e1dc;
   --input: #e2e1dc;
-  --ring: #4f7a5e;
-  --chart-1: #2f4a39;
-  --chart-2: #cfddd3;
-  --chart-3: #6b9478;
+  --ring: #337f5f;
+  --chart-1: #0b4630;
+  --chart-2: #cadfd4;
+  --chart-3: #539979;
   --chart-4: #8a6a35;
-  --chart-5: #a9c2b0;
+  --chart-5: #9ec5b1;
   --radius: 0.625rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
@@ -118,17 +119,17 @@
 
   /* Safe Road CI : couleurs de marque complémentaires */
   --soft-foreground: #3f4440;
-  --sage: #4f7a5e;
-  --mist: #dce6df;
+  --sage: #337f5f;
+  --mist: #d8e7df;
   --sand: #f4ecdd;
   --sand-foreground: #5c4318;
   --ochre: #8a6a35;
 
   /* Tableau de bord : nuances de vert, alertes, pistes neutres, paliers de badges */
-  --primary-tile: #3a5a46;
-  --moss: #6b9478;
-  --mint: #cfddd3;
-  --fern: #a9c2b0;
+  --primary-tile: #2b5643;
+  --moss: #539979;
+  --mint: #cadfd4;
+  --fern: #9ec5b1;
   --danger: #b42318;
   --danger-soft: #fbe4e1;
   --danger-soft-foreground: #b42318;
